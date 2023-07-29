@@ -58,6 +58,7 @@ SIMPLE_JWT = {
 }
 
 MIDDLEWARE = [
+    
     'django.middleware.security.SecurityMiddleware',
 
     "corsheaders.middleware.CorsMiddleware",
@@ -101,9 +102,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "web3",
+        "NAME": "mydatabase",
         "USER": "postgres",
-        "PASSWORD": "arsha123",
+        "PASSWORD": "1234",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
